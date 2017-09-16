@@ -1,7 +1,7 @@
-const parallel = require('parallel')
-const serial = require('parallel')
+const ParallelStream = require('parallel')
+const SerialStream = require('serial')
 
 module.exports = {
-  parallel,
-  serial
+  ParallelStream,
+  SeriaStream
 }
